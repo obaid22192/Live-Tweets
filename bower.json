@@ -1,0 +1,22 @@
+{
+  "name": "tweet-globe",
+  "version": "0.0.0",
+  "authors": [
+    "obaid habib"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pubnub-angular": "~1.1.0",
+    "angular-material": "~1.0.1",
+    "angular-resource": "~1.4.8",
+    "animate.css": "~3.5.1"
+  }
+}

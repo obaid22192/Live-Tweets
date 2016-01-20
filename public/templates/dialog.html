@@ -1,0 +1,40 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+  <!-- <form> -->
+<!--     <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Mango (Fruit)</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar> -->
+    <md-dialog-content>
+        <md-card>
+
+          <md-card-title>
+            <md-card-title-media>
+              <div class="md-media-sm card-media">
+                <img ng-src="{{tweet.user.profile_image_url}}"  alt="Washed Out">
+              </div>
+            </md-card-title-media>
+            <md-card-title-text>
+              <span class="md-headline">@{{ tweet.user.screen_name}}</span>
+            </md-card-title-text>
+
+          </md-card-title>
+
+          <md-card-content>
+            <p>
+              {{ tweet.text }}
+            </p>
+          </md-card-content>
+        </md-card>
+    </md-dialog-content>
+    <md-dialog-actions>
+      <md-button ng-click="answer('useful')" style="margin-right:20px;">
+        Close
+      </md-button>
+    </md-dialog-actions>
+  <!-- </form> -->
+</md-dialog>
